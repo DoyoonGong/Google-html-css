@@ -1,0 +1,153 @@
+body {
+    display: contents;
+}
+
+.navbar {
+    float: right;
+    margin: 20px;
+    font-size: 14px;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+    color: #202124;
+}
+
+.nav-item {
+    text-decoration: none;
+    color: #202124;
+    margin-right: 0px;
+    padding-left: 0px;
+}
+
+.log {
+    display: inline-block;
+    padding: 5px;
+    margin: 0 5px;
+    background-color: #1a73e8;
+    border: 1px solid #1a73e8;
+    font-size: 14px;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 17px;
+    padding: 8px 25px;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.nav-icon1 {
+    padding: 8px;
+}
+
+.nav-icon1:hover {
+    outline: none;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: rgba(60,64,67,0.08);
+}
+
+.nav-icon2:hover {
+    background: #2b7de9;
+    box-shadow: 0 1px 2px 0 rgb(66 133 244 / 30%), 0 1px 3px 1px rgb(66 133 244 / 15%);
+}
+
+.nav-item:hover {
+    text-decoration: underline;
+}
+
+.main {
+    margin-top: 300px;
+    text-align: center;
+}
+
+.input-area {
+    margin-top: 20px;
+}
+
+.input-box {
+    width: 584px;
+    height: 46px;
+    border-radius: 24px;
+    border: 1px solid #dfe1e5;
+    background: #fff;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.input-box:hover {
+    background-color: #fff;
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    border-color: rgba(223,225,229,0);
+}
+
+
+.input-box:focus {
+    outline: none;
+}
+
+.search-icon {
+    position: relative;
+    left: 40px;
+    color: #9aa0a6;
+    overflow: hidden;
+}
+
+.mic-icon {
+    position: relative;
+    right: 40px;
+    color: rgb(66, 133, 244);
+    overflow: hidden;
+}
+
+.button-area {
+    padding-top: 18px;
+}
+
+.button-style {
+    height: 36px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    text-align: center;
+    font-family: Apple SD Gothic Neo,arial,sans-serif;
+}
+
+.button-style:hover {
+    box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+    background-color: #f8f9fa;
+    border: 1px solid #dadce0;
+    color: #202124;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    background-color: #f2f2f2;
+    width: 100%;
+}
+
+.first-line {
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.second-line {
+    padding: 15px 30px;
+    font-size: 15px;
+    color: #70757a;
+}
+
+.second-line-second {
+    float: right;
+}
+
+a {
+    padding: 15px;
+    text-decoration: none;
+    color: #70757a;
+}
+
+a:hover {
+    text-decoration: underline;
+}
